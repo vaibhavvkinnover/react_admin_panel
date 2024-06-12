@@ -1,0 +1,75 @@
+.users {
+  padding: 20px;
+}
+
+.users h2 {
+  margin-bottom: 20px;
+  color: #495057;
+  font-weight: bold;
+}
+
+.user-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.user-card h3 {
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.user-card p {
+  color: #495057;
+}
+
+.user-card .user-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-card .user-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.user-card .user-actions button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.user-card .user-actions button:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.user-card .delete-button {
+  background-color: #dc3545;
+}
+
+.user-card .delete-button:hover {
+  background-color: #c82333;
+}
+
+.user-card .edit-button {
+  background-color: #ffc107;
+}
+
+.user-card .edit-button:hover {
+  background-color: #e0a800;
+}
+
+
+
